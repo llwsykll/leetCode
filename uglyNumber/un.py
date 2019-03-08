@@ -5,3 +5,4 @@ class Solution:
             while num%x == 0:
                 num = num/x
         return num == 1
+
