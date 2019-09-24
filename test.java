@@ -8,4 +8,4 @@ public class test {
         map.put(null, null);
         System.out.println(map.get("a") == (map.get("b")));
     }
-}
+} 
