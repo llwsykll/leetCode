@@ -1,4 +1,4 @@
-class Solution {
+class ESCT {
     public String convertToTitle(int n) {
         String[] arr=new String[]{"A","B","C","D","E","F","G","H","I","J","K","L","M",
             "N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
@@ -11,5 +11,11 @@ class Solution {
         }
         res.append(arr[n-1]);
         return res.reverse().toString();
+    }
+
+    public static void main(String[] args) {
+        ESCT a = new ESCT();
+        String res = a.convertToTitle(1);
+        System.out.println(res);
     }
 }
